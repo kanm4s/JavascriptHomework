@@ -7,7 +7,7 @@ function magic() {
   };
 }
 const answer = magic();
-console.log(answer); // *
-console.log(answer(1337)); // **
-console.log(magic(1337)(42)); // ***
+console.log(answer); // * { return x * 42; };
+console.log(answer(1337)); // ** 56154
+console.log(magic(1337)(42)); // *** 1764
 ```

@@ -5,5 +5,5 @@ function squareNum(num) {
   const result = num * num;
 }
 
-console.log(squareNum(2)); // *
+console.log(squareNum(2)); // * undefined เพราะว่าไม่ได้ return ค่าออกมาจึงทำให้ print ไม่ออก
 ```
