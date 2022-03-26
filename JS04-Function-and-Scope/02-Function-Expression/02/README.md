@@ -2,10 +2,10 @@
 
 ```js
 const showModal = alert;
-showModal("Execute modal"); // *
+showModal("Execute modal"); // * alert ข้อความ execute model
 ```
 
 ```js
 const showModal = alert();
-showModal("Execute modal"); // **
+showModal("Execute modal"); // ** ขึ้น error showmodal ไม่ใช่ function
 ```
