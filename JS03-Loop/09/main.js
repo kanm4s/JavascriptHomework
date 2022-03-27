@@ -1,5 +1,6 @@
 let firstPlayer = prompt("Enter number Between 1-99");
 let checkFirstPlayer = true;
+
 while (checkFirstPlayer) {
     if (!isNaN(firstPlayer)) {
         if (firstPlayer < 1 || firstPlayer > 99) {
