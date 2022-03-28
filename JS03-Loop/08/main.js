@@ -17,3 +17,15 @@ while (input) {
 }
 
 console.log(`sum:${sum} average:${average}`);
+
+// let input = prompt('Enter number')
+// let sum = 0
+// let count = 0
+
+// while (!(input === 0 | input === ''|| input ===null)) {
+//     sum += +input;
+//     count ++;
+//     input = prompt("Enter number");
+// }
+// console.log(sum);
+// console.log(sum/count);

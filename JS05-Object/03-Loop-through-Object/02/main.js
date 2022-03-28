@@ -6,7 +6,7 @@ function multiplyNumeric(obj, num) {
     }
 }
 
-let menu = {
+let menu = {k
     width: 200,
     height: 300,
     title: "My menu",

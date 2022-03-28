@@ -17,3 +17,16 @@ if (password === "123456") {
 }
 
 alert(`Welcome ${user}`);
+
+// let user = prompt("Enter username") || "Guest";
+
+// if (user === "codecamp") {
+//     let password = prompt("enter password");
+//     if (password !== "123456") {
+//         alert("wrong password");
+//     }
+// } else {
+//     user = "guest";
+// }
+
+// alert(user);

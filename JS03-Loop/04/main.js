@@ -24,3 +24,4 @@ console.log(resultOdd);
 console.log(resultEven);
 console.log(powerTwo);
 console.log(powerThree);
+console.log(powerTwo - powerThree);
