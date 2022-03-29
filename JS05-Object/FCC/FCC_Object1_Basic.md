@@ -209,12 +209,37 @@ const myMusic = [
 
 ```js
 // Finish and Paste your solution here
+const myStorage = {
+    car: {
+        inside: {
+            "glove box": "maps",
+            "passenger seat": "crumbs",
+        },
+        outside: {
+            trunk: "jack",
+        },
+    },
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
 ```
 
 [12.Accessing Nested Arrays](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays)
 
 ```js
 // Finish and Paste your solution here
+const myPlants = [
+    {
+        type: "flowers",
+        list: ["rose", "tulip", "dandelion"],
+    },
+    {
+        type: "trees",
+        list: ["fir", "pine", "birch"],
+    },
+];
+
+const secondTree = myPlants[1].list[1];
 ```
 
 # Application

@@ -6,10 +6,12 @@ function multiplyNumeric(obj, num) {
     }
 }
 
-let menu = {k
+let menu = {
     width: 200,
     height: 300,
     title: "My menu",
 };
 multiplyNumeric(menu, 3);
 console.log(menu);
+
+// try using typeof instead of isNaN
