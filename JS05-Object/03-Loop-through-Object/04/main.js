@@ -20,21 +20,21 @@
 // console.log(newObj);
 
 function createObj() {
-  let keyInput = prompt("Enter key");
-  let valueInput = prompt("Enter value");
-  let obj = {};
-  
-  while (keyInput && valueInput) {
-      if (keyInput === "stop" || valueInput === "stop") {
-          return obj;
-      } else {
-          obj[keyInput] = valueInput;
-          keyInput = prompt("Enter key");
-          valueInput = prompt("Enter value");
-      }
-  }
-  return obj;
+    let keyInput = prompt("Enter key");
+    let valueInput = prompt("Enter value");
+    let obj = {};
+
+    while (true) {
+        if (keyInput === "stop" || valueInput === "stop") {
+            return obj;
+        } else {
+            obj[keyInput] = valueInput;
+            keyInput = prompt("Enter key");
+            valueInput = prompt("Enter value");
+        }
+    }
+    return obj;
 }
 
-let testobj = createObj()
-console.log(testobj)
+let testobj = createObj();
+console.log(testobj);

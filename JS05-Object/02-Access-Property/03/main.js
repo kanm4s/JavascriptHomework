@@ -10,11 +10,6 @@ const product1 = {
         },
     },
 };
-
-let product2 = {};
-let distributor2 = product1.distributor;
-
-product2.distributor = distributor2;
-
+const product2 = {}
 console.log(product1.distributor.address.province);
-console.log(product2.distributor.address.province);
+console.log(product2?.distributor?.address?.province);
