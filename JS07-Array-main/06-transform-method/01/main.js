@@ -34,7 +34,7 @@
 // console.log(month)
 
 // const array = [1, 16, 81, 256, 625, 1296];
-// const newArr = array.map((ele, index) => index+1)
+// const newArr = array.map((ele, index) => index**4)
 // console.log(newArr)
 
 // const array = [

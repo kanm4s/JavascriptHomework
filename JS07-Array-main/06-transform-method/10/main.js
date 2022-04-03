@@ -11,7 +11,6 @@ const toNoneDuplicate = (arr) => {
             return true;
         }
     });
-
     return tmp;
 };
 
@@ -20,7 +19,7 @@ const allName = toNoneDuplicate(names);
 const countName = (arr) => {
     let tmpObj = {};
     arr.forEach((ele) => {
-        console.log(ele);
+        // console.log(ele);
         let count = names.filter((name) => name === ele);
         tmpObj[ele] = count.length;
     });
