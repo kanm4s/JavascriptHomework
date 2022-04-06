@@ -10,3 +10,10 @@ const permission = Object.assign(
     permission2,
     permission4
 );
+
+const permissionTest = {
+    ...permission1,
+    ...permission3,
+    ...permission2,
+    ...permission4,
+};

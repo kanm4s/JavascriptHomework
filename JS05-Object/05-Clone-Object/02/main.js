@@ -4,6 +4,10 @@ const state1 = {
     loading: true,
 };
 
-let obj = Object.assign({}, state1, { point: 75, loading: false });
+let obj = Object.assign({}, state1, {
+    point: 75,
+    loading: false,
+    success: true,
+});
 
 console.log(obj);

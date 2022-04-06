@@ -10,3 +10,8 @@ const notebook = {
 let cloneObj = Object.assign({}, notebook);
 
 console.log(cloneObj);
+
+const cloneNB = {};
+for (let key in notebook) {
+    cloneNB[key] = notebook[key];
+}

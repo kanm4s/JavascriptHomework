@@ -1,7 +1,7 @@
 let styles = ["Jazz", "Blues"];
 
 styles[styles.length] = "Rock-n-Roll";
-styles[Math.floor(styles.length)] = "Classic";
+styles[1] = "Classic";
 
 delete styles[0];
 styles.length;
